@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { useTodo } from '../Contexts/TodoContext';
+import { useTodo } from '../Contexts';
 
 function TodoItem({ todo }) {
   const [isTodoEditable, setIsTodoEditable] = useState(false)
